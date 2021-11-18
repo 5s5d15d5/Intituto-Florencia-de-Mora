@@ -1,0 +1,158 @@
+.menu {
+  display: flex;
+  background: rgb(248, 248, 248);
+  color: black;
+  font-weight: 500;
+  z-index: 1;
+}
+/*rgb(241, 243, 243)*/
+ul {
+  list-style: none;
+  color: black;
+}
+.menu li {
+  padding: 20px;
+  color: black;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  z-index: 1;
+}
+.menu li a:hover {
+  color: #616b74;
+  transition: all 0.3s ease 0s;
+}
+/*#29486b*/
+.logo {
+  padding-left: 20px;
+  width: 100px;
+  height: 80px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+@media (max-width: 500px) {
+  .menu {
+    display: block;
+    padding: 10px 20px;
+  }
+  li {
+    padding: 20px;
+  }
+}
+@media (max-width: 840px) {
+  .menu {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .menu {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+/* Submenu*/
+
+.Submenu {
+  position: absolute;
+  background: #66a7d3;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+  z-index: 1;
+}
+.Submenu li {
+  padding: 15px;
+}
+.Submenu a {
+  font-size: 80%;
+  display: flex;
+  justify-content: flex-start;
+  color: #ffffff; /*#2c3e50*/
+  text-decoration: none;
+  /*font-weight: 500;*/
+}
+
+.menu li:hover .Submenu {
+  visibility: visible;
+  opacity: 1;
+}
+.Submenu1 {
+  position: absolute;
+  background: #66a7d3;
+  width: 9%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+  z-index: 1;
+}
+/*#85c1e9*/
+.Submenu1 li {
+  padding: 15px;
+}
+.Submenu1 a {
+  padding: 1px;
+  font-size: 80%;
+  display: flex;
+  justify-content: flex-start;
+  color: #ffffff; /*#2c3e50*/
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu li:hover .Submenu1 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Submenu2 {
+  position: absolute;
+  background: #66a7d3;
+  width: 10%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+  z-index: 1;
+}
+.Submenu2 li {
+  padding: 15px;
+}
+.Submenu2 a {
+  font-size: 80%;
+  display: block;
+  padding: 15px;
+  color: #ffffff; /*#2c3e50*/
+  text-decoration: none;
+}
+
+.menu li:hover .Submenu2 {
+  visibility: visible;
+  opacity: 1;
+}
+.menu-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  /*max-width:1000px;*/
+  left: 0;
+  width: 50%;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.menu .estatico {
+  text-decoration: none;
+  padding: 10px;
+  background: #2192c7;
+  /*#2b6ebb*/
+  color: #fff;
+  width: 10;
+
+  border-radius: 20px;
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
