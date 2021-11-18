@@ -1,0 +1,86 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: calc(80vh - 50px);
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/formacion.jpg");
+    z-index: 0;
+  }
+  .banner-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    background-color: rgba(0, 22, 40, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulo {
+    text-align: left;
+    font-weight: 700;
+    display: flex;
+    font-size: 170%;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    padding: 30px 15px;
+    color: #000000;
+    margin: 20px 0 5px 40px;
+  }
+  #main-container {
+    margin: 100px auto;
+    width: 1000px;
+  }
+  body{
+    font-size: Cambria;
+  }
+  .fotito{
+    width: 50%;
+  }
+  .presentacion {
+    width: 50%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+  }
+  
+  .presentacion p{
+  padding: 10px 30px;
+  background-color: rgb(148, 192, 218);
+  margin-bottom: 13px;
+  font-size: 300;
+  text-align: center;
+  line-height: 24px;
+  color: rgb(24, 16, 16);
+  }
+  .t {
+    text-align: right;
+    font-weight: 700;
+    display: flex;
+    font-size: 170%;
+    padding: 30px 15px;
+    color: #000000;
+    margin: 20px 0 5px 40px;
+  }
+  .t1 {
+    text-align: right;
+    font-weight: 700;
+    display: flex;
+    font-size: 140%;
+    padding: 0 15px;
+    color: #000000;
+    margin: 0 0 5px 90px;
+  }
+  .info {
+    padding: 30px 150px;
+    width: 90%;
+    text-align: justify;
+    line-height: 24px;
+  }
